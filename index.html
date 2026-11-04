@@ -44,11 +44,11 @@ h2 small{display:block;margin-top:.6rem;font-size:.5em;font-style:italic;color:v
   border-radius:999px;background:rgba(240,217,160,.14);text-decoration:none;font-size:.95rem}
 .txt a.btn:hover,.txt a.btn:focus-visible{background:var(--ouro);color:#2b2e30}
 
-.imgs{position:relative;display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem 4%}
-.f{position:relative;overflow:hidden;background:var(--c);aspect-ratio:var(--ar);
+.imgs{position:relative;display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:1rem 4%}
+.f{position:relative;overflow:hidden;background:none;
   border:5px solid rgba(255,255,255,.94);border-radius:3px;box-shadow:0 14px 36px rgba(0,0,0,.45);
   opacity:0;will-change:transform,opacity}
-.z{position:absolute;inset:0;background:center/cover;will-change:transform}
+.z{display:block;width:100%;height:auto;will-change:transform}
 
 .rodape{position:relative;z-index:1;background:rgba(10,12,12,.88);padding:2.4rem 1.25rem;text-align:center;
   line-height:1.7;color:var(--suave)}
@@ -249,7 +249,7 @@ document.getElementById("site").innerHTML=SECOES.map((s,i)=>{
   const fotos=Array.from({length:s.n},(_,k)=>
     `<div class="f" role="img" aria-label="${s.titulo} (imagem ${k+1})"
       style="width:${LARG[s.n][k]};--ar:${PROP[(k+i)%4]};--c:${CORES[(k+i)%5]}">
-      <div class="z" style="background-image:url('${PASTA}${s.id}-${k+1}.jpg')"></div></div>`).join("");
+      <img class="z" src="${PASTA}${s.id}-${k+1}.jpg" alt=""></div>`).join("");
   return `<section class="bloco ${i%2?"dir":"esq"}" id="${s.id}"><div class="in">
     <div class="imgs">${fotos}</div>
     <div class="txt"><h2>${s.titulo}${s.sub?`<small>${s.sub}</small>`:""}</h2>${s.html}</div></div></section>`;
