@@ -167,8 +167,8 @@ const ANAIS = [
     url: "https://books.google.com.br/books?id=GQIvDwAAQBAJ&printsec=frontcover&dq=Dimens%C3%A3o+jur%C3%ADdico-pol%C3%ADtica+da+reforma+psiqui%C3%A1trica+brasileira:+Limites+e+possibilidades+&redir_esc=y#v=onepage&q=Dimens%C3%A3o%20jur%C3%ADdico-pol%C3%ADtica%20da%20reforma%20psiqui%C3%A1trica%20brasileira%3A%20Limites%20e%20possibilidades&f=false"
   }
 ];
-const anaisHtml = `<h3>Anais</h3><ul>${ANAIS.map(a=>
-  `<li><a href="${a.url}" target="_blank" rel="noopener">${a.titulo}</a><em>${a.complemento}</em></li>`).join("")}</ul>`;
+
+const anaisHtml = `<h3>Anais</h3><ul>${ANAIS.map(a=>`<li><a href="${a.url}" target="_blank" rel="noopener">${a.titulo}</a><em>${a.complemento}</em></li>`).join("")}</ul>`;
 
 const SECOES = [
 { id:"apresentacao", n:2, titulo:"Apresentação", sub:"Cuidado, escuta e possibilidades de transformação.", html:`
