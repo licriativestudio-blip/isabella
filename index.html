@@ -168,7 +168,9 @@ const ANAIS = [
   }
 ];
 
-const anaisHtml = `<h3>Anais</h3><ul>${ANAIS.map(a=>`<li><a href="${a.url}" target="_blank" rel="noopener">${a.titulo}</a><em>${a.complemento}</em></li>`).join("")}</ul>`;
+  const anaisHtml = "<h3>Anais</h3><ul>" + ANAIS.map(function(a) {
+  return "<li><a href=\"" + a.url + "\" target=\"_blank\" rel=\"noopener\">" + a.titulo + "</a><em>" + a.complemento + "</em></li>";
+}).join("") + "</ul>";
 
 const SECOES = [
 { id:"apresentacao", n:2, titulo:"Apresentação", sub:"Cuidado, escuta e possibilidades de transformação.", html:`
