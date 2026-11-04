@@ -168,7 +168,8 @@ const ANAIS = [
   }
 ];
 
-  const anaisHtml = "<h3>Anais</h3><ul>" + ANAIS.map(function(a) {
+  const anaisHtml = "<h3>Anais</h3><ul>" +
+ANAIS.map(function(a) {
   return "<li><a href=\"" + a.url + "\" target=\"_blank\" rel=\"noopener\">" + a.titulo + "</a><em>" + a.complemento + "</em></li>";
 }).join("") + "</ul>";
 
