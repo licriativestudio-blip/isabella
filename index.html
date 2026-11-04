@@ -139,14 +139,36 @@ const REDES = [
 const alvo = r => r.externo ? ' target="_blank" rel="noopener"' : '';
 const redesIcones = lista => lista.map(r=>`<a href="${r.url}"${alvo(r)} aria-label="${r.nome}" title="${r.nome}">${ICONES[r.k]}</a>`).join("");
 
-/* Publicações em Anais (encontradas em fontes públicas). Para incluir outras, copie uma linha. */
+/* ========== Anais originais com link público ========== */
 const ANAIS = [
-  { titulo:"Diagnóstico da infraestrutura turística de comércio e alimentícia instalada na praia de Santa Clara, no município de São Francisco de Itabapoana (RJ)",
-    autores:"com Wilson Martins Lopes Junior", ano:"2013",
-    url:"https://editoraessentia.iff.edu.br/index.php/confict/article/view/4586" }
+  {
+    titulo: "Nomadismo digital na psicologia clínica: desafios éticos e transformações subjetivas",
+    complemento: "CARVALHO, I. P. B.. In: 23 ENCONTRO NACIONAL DA ASSOCIAÇÃO BRASILEIRA DE PSICOLOGIA SOCIAL — Aliança dos povos: Psicologia Social face à destruição de todas as formas de vida, 2025, Manaus. p. 1832‑1833",
+    url: "https://site.abrapso.org.br/wp-content/uploads/2026/01/anais25_v5.pdf"
+  },
+  {
+    titulo: "Clínica Nômade: experimentações no território e atendimento pós pandêmico",
+    complemento: "CARVALHO, I. P. B.. In: 9º Congresso Brasileiro de Saúde Mental — Potências do Bem Viver: ancestralidade, diversidade e sustentabilidade, 2024, Belém",
+    url: "https://globaluserfiles.com/media/8589_7c9315426433f1939bd37afc91855551231e036c.pdf/o/anais%209cbsm%20-%20final.pdf"
+  },
+  {
+    titulo: "POTÊNCIAS E IMPASSES: EXPERIÊNCIA EM UMA UNIDADE DE ACOLHIMENTO INFANTO‑JUVENIL",
+    complemento: "CARVALHO, I. P. B.. In: 12ª Mostra Regional de Práticas em Psicologia, 2018, Rio de Janeiro, p. 22",
+    url: "https://www.crprj.org.br/uploads/revista/271/g8Ec6XV8asaBGJ5fkHUJHGWDrorhGLrE.pdf"
+  },
+  {
+    titulo: "INCLUSÃO DIGITAL DA TERCEIRA IDADE NA UNITI",
+    complemento: "CARVALHO, I. P. B.; COSTA, M. O. S. S.. In: 11ª Mostra Regional de Práticas em Psicologia: Ressignificando Práticas, Compartilhando Experiências e Construindo Redes, 2017, Rio de Janeiro, p. 184",
+    url: "https://www.crprj.org.br/uploads/revista/267/fvrBNkFUvEjZthu0n3kDUxpDXyL45vD2.pdf"
+  },
+  {
+    titulo: "Se você quer prender, não é seguro: problematização da medida de segurança e da internação de pessoas em sofrimento psíquico",
+    complemento: "CARVALHO, I. P. B.; SILVEIRA, L.; MOREIRA, A. I. P.; CUSTODIO, A. V. L.; GONCALVES, C. C.; SILVA, J. P.; BARRETO, L. D.; DURANS, P. H. S.; MARINHO, V. D.. In: Ludmila Cerqueira Correia; Rachel Gouveia Passos (Org.). Dimensão jurídico‑política da reforma psiquiátrica brasileira: Limites e possibilidades. 1ª ed. Rio de Janeiro: Gramma Livraria e Editora, 2017, v. 1, p. 133‑154",
+    url: "https://books.google.com.br/books?id=GQIvDwAAQBAJ&printsec=frontcover&dq=Dimens%C3%A3o+jur%C3%ADdico-pol%C3%ADtica+da+reforma+psiqui%C3%A1trica+brasileira:+Limites+e+possibilidades+&redir_esc=y#v=onepage&q=Dimens%C3%A3o%20jur%C3%ADdico-pol%C3%ADtica%20da%20reforma%20psiqui%C3%A1trica%20brasileira%3A%20Limites%20e%20possibilidades&f=false"
+  }
 ];
 const anaisHtml = `<h3>Anais</h3><ul>${ANAIS.map(a=>
-  `<li><a href="${a.url}" target="_blank" rel="noopener">${a.titulo}</a><em>${a.autores}, ${a.ano}</em></li>`).join("")}</ul>`;
+  `<li><a href="${a.url}" target="_blank" rel="noopener">${a.titulo}</a><em>${a.complemento}</em></li>`).join("")}</ul>`;
 
 const SECOES = [
 { id:"apresentacao", n:2, titulo:"Apresentação", sub:"Cuidado, escuta e possibilidades de transformação.", html:`
