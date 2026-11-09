@@ -1,0 +1,344 @@
+{
+  "campanha": "Quem somos — Isabella Bittar",
+  "versao": "1.0",
+  "data": "2026-11-09",
+  "profissional": {
+    "nome": "Isabella Pessanha Bittar de Carvalho",
+    "profissao": "Psicóloga clínica | Acompanhamento Terapêutico",
+    "crp": "05/58202",
+    "site": "https://isabellabittar.com.br",
+    "whatsapp": "5522999953112",
+    "whatsapp_exibicao": "(22) 99995-3112",
+    "instagram": "@potenciadosencontros",
+    "email": "isabella.pessanha@gmail.com",
+    "lattes": "http://lattes.cnpq.br/8803730004078884",
+    "atuacao": [
+      "presencial em Campos dos Goytacazes",
+      "on-line para todo o Brasil"
+    ],
+    "desde": 2020
+  },
+  "entrega_principal": {
+    "arquivo": "quem-somos-1080x1920.mp4",
+    "resolucao": "1080x1920",
+    "proporcao": "9:16",
+    "fps": 30,
+    "duracao_s": 89.23,
+    "codec_video": "H.264 High, yuv420p, CRF 18",
+    "codec_audio": "AAC 192 kbps, 48 kHz",
+    "loudness": "-15 LUFS integrado, true peak -1.5 dBTP",
+    "legendas": [
+      "legendas.srt",
+      "legendas.vtt"
+    ],
+    "legendas_queimadas": true,
+    "legendas_ausentes_em": [
+      "marina",
+      "rafael",
+      "celia"
+    ]
+  },
+  "paleta": {
+    "dourado": "#F0D9A0",
+    "areia": "#E9DFCD",
+    "offwhite": "#F7F4EC",
+    "fundo": "#0B0E0D",
+    "texto_secundario": "#C4C0B4"
+  },
+  "tipografia": {
+    "titulos": "Cormorant Garamond Light 300",
+    "citacoes": "Cormorant Garamond Italic 400",
+    "apoio": "Inter Light 300 / Regular 400",
+    "etiquetas": "Inter Medium 500 (tracking 4-5 px)"
+  },
+  "personagens": [
+    {
+      "id": "marina",
+      "nome": "Marina, 34",
+      "ocupacao": "designer",
+      "cidade": "Campos dos Goytacazes",
+      "ficcional": true,
+      "rotulo_em_tela": "PERSONAGEM FICCIONAL",
+      "retrato": "personagens/marina.jpg",
+      "voz": {
+        "perfil": "feminina, 34, conversacional, pensativa, sem entusiasmo publicitário",
+        "settings": {
+          "stability": 0.38,
+          "similarity": 0.75,
+          "style": 0.35,
+          "speed": 1.0
+        }
+      }
+    },
+    {
+      "id": "rafael",
+      "nome": "Rafael, 45",
+      "ocupacao": "professor",
+      "cidade": "Macaé",
+      "ficcional": true,
+      "rotulo_em_tela": "PERSONAGEM FICCIONAL",
+      "retrato": "personagens/rafael.jpg",
+      "voz": {
+        "perfil": "masculina, 45, grave, pausada, professor",
+        "settings": {
+          "stability": 0.4,
+          "similarity": 0.78,
+          "style": 0.3,
+          "speed": 0.97
+        }
+      }
+    },
+    {
+      "id": "celia",
+      "nome": "Célia, 63",
+      "ocupacao": "aposentada",
+      "cidade": "Campos dos Goytacazes",
+      "ficcional": true,
+      "rotulo_em_tela": "PERSONAGEM FICCIONAL",
+      "retrato": "personagens/celia.jpg",
+      "voz": {
+        "perfil": "feminina, 63, calorosa, dicção clara, sem fragilidade caricata",
+        "settings": {
+          "stability": 0.45,
+          "similarity": 0.75,
+          "style": 0.3,
+          "speed": 0.93
+        }
+      }
+    }
+  ],
+  "narradora": {
+    "perfil": "feminina, 45-55, locução documental, grave e acolhedora",
+    "settings": {
+      "stability": 0.45,
+      "similarity": 0.8,
+      "style": 0.2,
+      "speed": 0.95
+    },
+    "pronuncia": {
+      "CRP": "cê-erre-pê",
+      "05/58202": "zero cinco barra cinco oito dois zero dois",
+      "on-line": "onlaine"
+    }
+  },
+  "cenas": [
+    {
+      "id": "hook",
+      "tipo": "retrato",
+      "inicio": 0.0,
+      "fim": 7.19,
+      "asset": "../../apresentacao-1.jpg",
+      "ken_burns": {
+        "zoom_de": 1.03,
+        "zoom_para": 1.11,
+        "foco": [
+          0.5,
+          0.33
+        ]
+      },
+      "etiqueta": "PSICOLOGIA CLÍNICA · ACOMPANHAMENTO TERAPÊUTICO",
+      "titulo": "Quem somos",
+      "subtitulo": "Uma pessoa, uma escuta — e muitos encontros.",
+      "voz": {
+        "arquivo": "n1_encontro.mp3",
+        "inicio": 0.85
+      },
+      "fala": "Toda escuta começa com um encontro. Este é o site de Isabella Bittar."
+    },
+    {
+      "id": "quem",
+      "tipo": "retrato_com_cartao",
+      "inicio": 7.19,
+      "fim": 20.83,
+      "asset": "../../apresentacao-2.jpg",
+      "ken_burns": {
+        "zoom_de": 1.02,
+        "zoom_para": 1.09,
+        "foco": [
+          0.4,
+          0.42
+        ]
+      },
+      "titulo": "Uma clínica feita de encontros",
+      "cartao": {
+        "etiqueta": "PSICÓLOGA CLÍNICA",
+        "nome": "Isabella Pessanha Bittar de Carvalho",
+        "crp": "CRP 05/58202",
+        "itens": [
+          "Presencial em Campos dos Goytacazes",
+          "On-line para todo o Brasil",
+          "Prática clínica desde 2020",
+          "Psicoterapia e Acompanhamento Terapêutico"
+        ]
+      },
+      "voz": {
+        "arquivo": "n2_quem.mp3",
+        "inicio": 7.41
+      },
+      "fala": "Isabella Pessanha Bittar de Carvalho é psicóloga clínica, CRP 05/58202. Atende presencialmente em Campos dos Goytacazes e on-line, para todo o Brasil."
+    },
+    {
+      "id": "marina",
+      "tipo": "depoimento",
+      "inicio": 20.83,
+      "fim": 36.98,
+      "asset": "personagens/marina.jpg",
+      "ken_burns": {
+        "zoom_de": 1.02,
+        "zoom_para": 1.08,
+        "foco": [
+          0.52,
+          0.4
+        ]
+      },
+      "citacao": "“Eu não sabia a diferença entre psicoterapia e acompanhamento terapêutico. Em cinco minutos de site, eu entendi.”",
+      "voz": {
+        "arquivo": "m1_marina.mp3",
+        "inicio": 21.05
+      },
+      "fala": "Eu não sabia a diferença entre psicoterapia e acompanhamento terapêutico. Em cinco minutos de site, eu entendi. E gostei do jeito que ela escreve: sem promessa mirabolante, sem fórmula pronta. Só escuta, presença e um convite para conversar."
+    },
+    {
+      "id": "rafael",
+      "tipo": "depoimento",
+      "inicio": 36.98,
+      "fim": 49.93,
+      "asset": "personagens/rafael.jpg",
+      "ken_burns": {
+        "zoom_de": 1.02,
+        "zoom_para": 1.08,
+        "foco": [
+          0.5,
+          0.38
+        ]
+      },
+      "citacao": "“Consultório, CAPS, acompanhamento na rua. Dá para ver de onde vem essa escuta.”",
+      "voz": {
+        "arquivo": "r1_rafael.mp3",
+        "inicio": 37.2
+      },
+      "fala": "O que me chamou atenção foi o percurso. Consultório, CAPS, acompanhamento na rua, publicação em congresso. Dá para ver de onde vem essa escuta. É um site que fala de gente, não de sintoma."
+    },
+    {
+      "id": "celia",
+      "tipo": "depoimento",
+      "inicio": 49.93,
+      "fim": 63.76,
+      "asset": "personagens/celia.jpg",
+      "ken_burns": {
+        "zoom_de": 1.02,
+        "zoom_para": 1.08,
+        "foco": [
+          0.5,
+          0.36
+        ]
+      },
+      "citacao": "“O site explica com calma, passo a passo. Foi aí que eu criei coragem.”",
+      "voz": {
+        "arquivo": "c1_celia.mp3",
+        "inicio": 50.15
+      },
+      "fala": "Eu achava que terapia on-line não era para a minha idade. O site explica com calma, passo a passo, sem pressa. Foi aí que eu criei coragem e mandei a primeira mensagem no WhatsApp."
+    },
+    {
+      "id": "site",
+      "tipo": "lista",
+      "inicio": 63.76,
+      "fim": 73.09,
+      "asset": "../../contato-1.jpg",
+      "ken_burns": {
+        "zoom_de": 1.05,
+        "zoom_para": 1.13,
+        "foco": [
+          0.5,
+          0.3
+        ]
+      },
+      "etiqueta": "O QUE TEM NO SITE",
+      "titulo": "O que você encontra",
+      "itens": [
+        "Psicoterapia",
+        "Acompanhamento Terapêutico",
+        "Formação e publicações",
+        "Contato direto no WhatsApp"
+      ],
+      "voz": {
+        "arquivo": "n3_site.mp3",
+        "inicio": 63.98
+      },
+      "fala": "No site, você entende o que é psicoterapia, o que é acompanhamento terapêutico, de onde vem a formação dela e o que ela já publicou."
+    },
+    {
+      "id": "convite",
+      "tipo": "cta",
+      "inicio": 73.09,
+      "fim": 84.51,
+      "titulo": "Vamos conversar?",
+      "subtitulo": "Se você quer conhecer o trabalho, comece pelo site.",
+      "url": "isabellabittar.com.br",
+      "botoes": [
+        {
+          "rotulo": "WHATSAPP",
+          "valor": "(22) 99995-3112",
+          "link": "https://wa.me/5522999953112?text=Ol%C3%A1%2C%20Isabella!%20Gostaria%20de%20conversar%20sobre%20atendimento."
+        },
+        {
+          "rotulo": "INSTAGRAM",
+          "valor": "@potenciadosencontros",
+          "link": "https://www.instagram.com/potenciadosencontros/"
+        }
+      ],
+      "aviso": "Personagens fictícios, criados para esta peça. Nenhum resultado é prometido: cada processo é único.",
+      "voz": {
+        "arquivo": "n4_convite.mp3",
+        "inicio": 73.31
+      },
+      "fala": "Se fizer sentido para você, escreva. A primeira conversa serve para tirar dúvidas e verificar a agenda. Sem promessa de resultado: escuta, presença e cuidado."
+    },
+    {
+      "id": "fim",
+      "tipo": "endcard",
+      "inicio": 84.51,
+      "fim": 89.23,
+      "titulo": "Até o próximo encontro.",
+      "linhas": [
+        "Isabella Pessanha Bittar de Carvalho",
+        "Psicóloga clínica · CRP 05/58202",
+        "isabellabittar.com.br"
+      ],
+      "rodape": "Vídeo institucional · 2026 · personagens fictícios"
+    }
+  ],
+  "audio": {
+    "trilha": {
+      "tipo": "pad ambiente original",
+      "harmonia": [
+        "Lá menor",
+        "Fá maior"
+      ],
+      "bpm": null,
+      "ducking": "-72% sob a voz",
+      "fade_in_s": 2.5,
+      "fade_out_s": 3.2
+    },
+    "vozes": 4,
+    "arquivos": [
+      "audio/n1_encontro.mp3",
+      "audio/n2_quem.mp3",
+      "audio/m1_marina.mp3",
+      "audio/r1_rafael.mp3",
+      "audio/c1_celia.mp3",
+      "audio/n3_site.mp3",
+      "audio/n4_convite.mp3"
+    ]
+  },
+  "guardrails": {
+    "personagens_ficticios": true,
+    "depoimento_de_paciente_real": false,
+    "promessa_de_resultado": false,
+    "superlativos": false,
+    "antes_e_depois": false,
+    "crp_obrigatorio": "05/58202",
+    "aviso_em_todas_as_pecas": "Personagens fictícios, criados para esta peça. Nenhum resultado é prometido."
+  }
+}
